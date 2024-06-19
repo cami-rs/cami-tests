@@ -1,0 +1,7 @@
+[package]
+name = "cami-tests"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cami = { path = "../cami", version = "0.0.2", features = ["debug"] }
